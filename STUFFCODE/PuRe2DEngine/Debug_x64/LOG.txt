@@ -1,0 +1,6 @@
+[27.07.2016 17:42:50][ENGINE]: SignalHandler initialized!
+[27.07.2016 17:42:50][ENGINE]: Window initialized!
+[27.07.2016 17:42:51][ENGINE]: Graphics initialized!
+[27.07.2016 17:42:51][ENGINE]: Input initialized!
+[27.07.2016 17:42:51][ENGINE]: Timer initialized!
+[27.07.2016 17:42:51][ENGINE]: SoundPlayer initialized!

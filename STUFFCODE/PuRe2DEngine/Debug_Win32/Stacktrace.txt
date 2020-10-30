@@ -1,0 +1,32 @@
+c:\users\p-u-r\desktop\stuffcode\pure2dengine\src\pure.core\signalhandlerwin.cpp (14): PuReEngine::Core::CSignalHandlerWin::SignalHandle
+c:\users\p-u-r\desktop\stuffcode\pure2dengine\src\pure.core\signalhandlerwin.cpp (14): raise
+c:\users\p-u-r\desktop\stuffcode\pure2dengine\src\pure.core\signalhandlerwin.cpp (14): setmbcp
+c:\users\p-u-r\desktop\stuffcode\pure2dengine\src\pure.core\signalhandlerwin.cpp (14): CrtSetReportHookW2
+c:\users\p-u-r\desktop\stuffcode\pure2dengine\src\pure.core\signalhandlerwin.cpp (14): VCrtDbgReportW
+c:\users\p-u-r\desktop\stuffcode\pure2dengine\src\pure.core\signalhandlerwin.cpp (14): CrtDbgReportW
+c:\users\p-u-r\desktop\stuffcode\pure2dengine\src\pure.core\signalhandlerwin.cpp (14): _threadid
+c:\users\p-u-r\desktop\stuffcode\pure2dengine\src\pure.core\signalhandlerwin.cpp (14): _threadid
+c:\users\p-u-r\desktop\stuffcode\pure2dengine\src\pure.core\signalhandlerwin.cpp (14): abort
+c:\users\p-u-r\desktop\stuffcode\pure2dengine\src\pure.core\signalhandlerwin.cpp (14): terminate
+c:\users\p-u-r\desktop\stuffcode\pure2dengine\src\pure.core\signalhandlerwin.cpp (14): _DestructExceptionObject
+c:\users\p-u-r\desktop\stuffcode\pure2dengine\src\pure.core\signalhandlerwin.cpp (14): _GetPlatformExceptionInfo
+c:\users\p-u-r\desktop\stuffcode\pure2dengine\src\pure.core\signalhandlerwin.cpp (14): _CxxFrameHandler3
+c:\users\p-u-r\desktop\stuffcode\pure2dengine\src\pure.core\signalhandlerwin.cpp (14): RtlConvertUlongToLargeInteger
+c:\users\p-u-r\desktop\stuffcode\pure2dengine\src\pure.core\signalhandlerwin.cpp (14): RtlConvertUlongToLargeInteger
+c:\users\p-u-r\desktop\stuffcode\pure2dengine\src\pure.core\signalhandlerwin.cpp (14): KiUserExceptionDispatcher
+c:\users\p-u-r\desktop\stuffcode\pure2dengine\src\pure.core\signalhandlerwin.cpp (14): CxxThrowException
+c:\users\p-u-r\desktop\stuffcode\pure2dengine\src\pure.core\signalhandlerwin.cpp (14): std::_Xbad_function_call
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\functional (272): std::_Func_class<void>::operator()
+c:\users\p-u-r\desktop\stuffcode\pure2dengine\src\pure.core\threadmanager.cpp (93): PuReEngine::Core::CThreadManager::GetJob
+c:\users\p-u-r\desktop\stuffcode\pure2dengine\src\pure.core\threadmanager.cpp (63): PuReEngine::Core::CThreadManager::DoJob
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits (1348): std::_Invoker_functor::_Call<void (__cdecl*)(PuReEngine::Core::CThreadManager *),PuReEngine::Core::CThreadManager *>
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits (1416): std::invoke<void (__cdecl*)(PuReEngine::Core::CThreadManager *),PuReEngine::Core::CThreadManager *>
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread (238): std::_LaunchPad<std::unique_ptr<std::tuple<void (__cdecl*)(PuReEngine::Core::CThreadManager *),PuReEngine::Core::CThreadManager *>,std::default_delete<std::tuple<void (__cdecl*)(PuReEngine::Core::CThreadManager *),PuReEngine::Core::CThreadManager *> > > >::_Execute<0,1>
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread (245): std::_LaunchPad<std::unique_ptr<std::tuple<void (__cdecl*)(PuReEngine::Core::CThreadManager *),PuReEngine::Core::CThreadManager *>,std::default_delete<std::tuple<void (__cdecl*)(PuReEngine::Core::CThreadManager *),PuReEngine::Core::CThreadManager *> > > >::_Run
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread (230): std::_LaunchPad<std::unique_ptr<std::tuple<void (__cdecl*)(PuReEngine::Core::CThreadManager *),PuReEngine::Core::CThreadManager *>,std::default_delete<std::tuple<void (__cdecl*)(PuReEngine::Core::CThreadManager *),PuReEngine::Core::CThreadManager *> > > >::_Go
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread (207): std::_Pad::_Call_func
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread (207): register_onexit_function
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread (207): register_onexit_function
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread (207): BaseThreadInitThunk
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread (207): RtlUnicodeStringToInteger
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread (207): RtlUnicodeStringToInteger
