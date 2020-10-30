@@ -1,0 +1,3 @@
+background-1 = 0 6040 4280 1806
+background-2 = 0 3240 5120 2800
+background-3 = 0 0 7680 3240

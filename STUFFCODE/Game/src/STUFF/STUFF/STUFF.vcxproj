@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E874038B-6814-4FAD-8AB6-C101916F377E}</ProjectGuid>
+    <RootNamespace>STUFF</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\propertysheets\Intermediate.props" />
+    <Import Project="..\..\propertysheets\Output.props" />
+    <Import Project="..\..\propertysheets\PuRe.Core.Include.props" />
+    <Import Project="..\..\propertysheets\Targetname.props" />
+    <Import Project="..\..\propertysheets\Lua.Include.props" />
+    <Import Project="..\..\propertysheets\NODEFAULTLIB.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\propertysheets\Intermediate.props" />
+    <Import Project="..\..\propertysheets\Output.props" />
+    <Import Project="..\..\propertysheets\PuRe.Core.Include.props" />
+    <Import Project="..\..\propertysheets\Targetname.props" />
+    <Import Project="..\..\propertysheets\Lua.Include.props" />
+    <Import Project="..\..\propertysheets\NODEFAULTLIB.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\propertysheets\Intermediate.props" />
+    <Import Project="..\..\propertysheets\Output.props" />
+    <Import Project="..\..\propertysheets\PuRe.Core.Include.props" />
+    <Import Project="..\..\propertysheets\Targetname.props" />
+    <Import Project="..\..\propertysheets\Lua.Include.props" />
+    <Import Project="..\..\propertysheets\NODEFAULTLIB.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\propertysheets\Intermediate.props" />
+    <Import Project="..\..\propertysheets\Output.props" />
+    <Import Project="..\..\propertysheets\PuRe.Core.Include.props" />
+    <Import Project="..\..\propertysheets\Targetname.props" />
+    <Import Project="..\..\propertysheets\Lua.Include.props" />
+    <Import Project="..\..\propertysheets\NODEFAULTLIB.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>NotSet</SubSystem>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>NotSet</SubSystem>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>NotSet</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>NotSet</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="BigUboot.cpp" />
+    <ClCompile Include="BubbleEmitter.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="CreditScene.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="GameCamera.cpp" />
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="Highscore.cpp" />
+    <ClCompile Include="HUD.cpp" />
+    <ClCompile Include="HudEmitter.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="Kraken.cpp" />
+    <ClCompile Include="Laser.cpp" />
+    <ClCompile Include="LogoScene.cpp" />
+    <ClCompile Include="LuaReader.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainScene.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="MenuFish.cpp" />
+    <ClCompile Include="MenuScene.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="SpriteManager.cpp" />
+    <ClCompile Include="SpriteReader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Background.h" />
+    <ClInclude Include="include\BigUboot.h" />
+    <ClInclude Include="include\BubbleEmitter.h" />
+    <ClInclude Include="include\Bullet.h" />
+    <ClInclude Include="include\CreditScene.h" />
+    <ClInclude Include="include\Enemy.h" />
+    <ClInclude Include="include\Explosion.h" />
+    <ClInclude Include="include\GameCamera.h" />
+    <ClInclude Include="include\GameScene.h" />
+    <ClInclude Include="include\Highscore.h" />
+    <ClInclude Include="include\HUD.h" />
+    <ClInclude Include="include\HudEmitter.h" />
+    <ClInclude Include="include\Item.h" />
+    <ClInclude Include="include\Kraken.h" />
+    <ClInclude Include="include\Laser.h" />
+    <ClInclude Include="include\LogoScene.h" />
+    <ClInclude Include="include\LuaReader.h" />
+    <ClInclude Include="include\MainScene.h" />
+    <ClInclude Include="include\Map.h" />
+    <ClInclude Include="include\MenuFish.h" />
+    <ClInclude Include="include\MenuScene.h" />
+    <ClInclude Include="include\Player.h" />
+    <ClInclude Include="include\SoundManager.h" />
+    <ClInclude Include="include\SpriteManager.h" />
+    <ClInclude Include="include\SpriteReader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\gameicon.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

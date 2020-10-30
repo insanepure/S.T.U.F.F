@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{59174672-e57e-4109-9f98-30197b234164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{d4fa50a0-a930-4ddc-aa30-7baf231c6b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{9b8d4c4b-c40f-4aec-a922-5c771864e933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="All">
+      <UniqueIdentifier>{a6ab3319-7a99-4cb6-aa52-cd06dc828b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{dd81a893-19cf-401c-8d4b-4807efa90b76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>All</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>All</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>All</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleEmitter.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaReader.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuFish.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteReader.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCamera.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="HudEmitter.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="BigUboot.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Highscore.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Kraken.cpp">
+      <Filter>All</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\MainScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LogoScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MenuScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CreditScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Bullet.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Enemy.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HUD.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Map.h">
+      <Filter>All</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaReader.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Explosion.h">
+      <Filter>All</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Background.h">
+      <Filter>All</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BubbleEmitter.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SpriteReader.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SoundManager.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MenuFish.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Item.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameCamera.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HudEmitter.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BigUboot.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Laser.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Highscore.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Kraken.h">
+      <Filter>All</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SpriteManager.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\gameicon.ico" />
+  </ItemGroup>
+</Project>

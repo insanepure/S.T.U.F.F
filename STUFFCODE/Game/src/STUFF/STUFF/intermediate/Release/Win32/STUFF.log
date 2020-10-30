@@ -1,0 +1,31 @@
+﻿  Background.cpp
+  BigUboot.cpp
+  BubbleEmitter.cpp
+  Bullet.cpp
+  CreditScene.cpp
+  Enemy.cpp
+  Explosion.cpp
+  GameCamera.cpp
+  GameScene.cpp
+  Highscore.cpp
+  HUD.cpp
+  HudEmitter.cpp
+  Item.cpp
+  Kraken.cpp
+  Laser.cpp
+  LogoScene.cpp
+  LuaReader.cpp
+  Main.cpp
+  MainScene.cpp
+  Map.cpp
+  Kompilieren...
+  MenuFish.cpp
+  MenuScene.cpp
+  Player.cpp
+  SoundManager.cpp
+  SpriteManager.cpp
+  SpriteReader.cpp
+  Code wird generiert.
+  All 3199 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Codegenerierung ist abgeschlossen.
+  STUFF.vcxproj -> C:\Users\p-u-r\Desktop\STUFFCODE\s.t.u.f.f\src\STUFF\STUFF\..\..\..\bin\Win32\Release_STUFF.exe

@@ -1,0 +1,31 @@
+#version 330 core
+
+in vec2 UV;
+in vec3 Color;
+uniform sampler2D Diffuse;
+uniform float Time;
+uniform float Gray;
+
+
+void main()
+{
+
+	float val = 0;
+  	if(Time > 0)
+		val = (sin(Time*4)+1)/2;
+	vec4 white = vec4(val,val,val,0);
+	vec4 blend = texture2D( Diffuse, vec2(UV.x,UV.y) );
+
+	vec4 color = blend+white;
+
+	float greyscale = dot(color.rgb,vec3(0.3, 0.59, 0.11));
+	vec4 colorgrey = vec4(greyscale,greyscale,greyscale,color.a);
+
+	if(blend.a < 0.00001)
+		discard;
+
+	if(Gray > 0.0)
+		gl_FragColor = colorgrey;
+	else		
+		gl_FragColor = color;
+}

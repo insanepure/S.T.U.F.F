@@ -1,0 +1,16 @@
+#version 330 core
+
+in vec2 UV;
+in vec3 Color;
+// Values that stay constant for the whole mesh.
+uniform sampler2D Diffuse;
+
+
+void main()
+{
+
+	vec4 blend = texture2D( Diffuse, vec2(UV.x,UV.y) );
+	if(blend.a < 0.1)
+		discard;
+	gl_FragColor = blend;
+}
